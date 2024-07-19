@@ -219,57 +219,78 @@ margin: 10% 10%;}
     margin-left: 300px;
     text-align: center;
 }
-.v6 {
-    background-color: #1a8787;
-    color: aliceblue;
-    height: 300px;
-    width: 240px;
-    border-radius: 5%;
-    margin-left: 100px;
-    padding: 2%;
-    font-size: medium;
+.lawel{
+    display: flex;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 310px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding-left: 10px;
-}
-.v9{
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    background-color: rgb(116, 204, 189); 
+    padding-right: 45px;
+ }
+ .theni{
     display: flex;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    background-color: #3d83df;
+    padding-left: 45px;
+    padding-right: 45px;
+ }
+ .thelith{
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+    background-color: #1b2734;
+    padding-left: 45px;
+    padding-right: 45px;
+
+ }
+ 
+ 
+ 
+.elkol{
+    display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
+    align-items: center;
 }
-.v6 > img{
+.lala{
+    padding-left: 100px;
+}
+.lawel >img {
     width: 20%;
 }
-.v7 {
-    background-color: #2419bb;
-    color: aliceblue;
-    height: 300px;
-    width: 240px;
-    border-radius: 5%;
-    margin-left: 100px;
-    padding: 2%;
-    font-size: medium;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 100PX;
+.theni >img {
+    width: 20%;
 }
-.v8{
-    background-color: #000000;
-     font: aliceblue;
-    height: 300px;
-    width: 240px;
-    border-radius: 5%;
-    margin-left: 100px;
-    padding: 2%;
-    font-size: medium;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding-left: 100PX;
-
+.thelith >img {
+    width: 20%;
 }
-.ktiba1{
-    padding-bottom :140px;
-    color: ;
+.lawel1{
+    padding-bottom: 140px;
+    color: white;
+padding-right: 100px;
+font-size: small;
+}
+.lawel >h1{
+    color: white;
+    font-size: medium;
+}
+.lolo{
+    padding-left: 20px;
 }
